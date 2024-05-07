@@ -1,5 +1,5 @@
-# Ex-1-NFA-to-DFA
-# Exercise 1 - Conversion of Non-Deterministic Finite Automaton (NFA) To Deterministic Finite Automaton (DFA)
+# Ex. No : 1
+# Conversion of Non-Deterministic Finite Automaton (NFA) To Deterministic Finite Automaton (DFA)
 ## Register Number : 212223240037
 ## Date : 08/02/2024
 # Aim
