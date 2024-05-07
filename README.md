@@ -266,12 +266,9 @@ int main() {
     dfa_states[start_index].count = 1;
     Sm = 0;
     for (i = 0; i < symbols; i++) {
- 
       trans(buffer, i, closure_table, states, NFA_TABLE, T_buf);
- 
       // storing the new DFA state in buffer
       strcpy(&DFA_TABLE[zz][i], T_buf);
-
       // parameter to control new states
       Sm = Sm + new_states(dfa_states, T_buf);
     }
@@ -282,13 +279,13 @@ int main() {
   }
   // display the DFA TABLE
   Display_DFA(last_index, dfa_states, DFA_TABLE);
- 
   return 0;
 }
 ```
+
+
 # OUTPUT 
 ![image](https://github.com/GnanendranN/Ex-1-NFA-to-DFA/assets/138955207/ae11bc80-b9ea-4fb6-84d1-decbddcc8df6)
-
 # RESULT
 The program was sucessfully converted from NFA to DFA.
 
